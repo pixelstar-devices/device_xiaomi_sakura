@@ -1,17 +1,13 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2024 The Pixelstar Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_daisy.mk \
-    $(LOCAL_DIR)/lineage_sakura.mk
+    $(LOCAL_DIR)/pixelstar_sakura.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_daisy-user \
-    lineage_daisy-userdebug \
-    lineage_daisy-eng \
-    lineage_sakura-user \
-    lineage_sakura-userdebug \
-    lineage_sakura-eng
+    pixelstar_sakura-user \
+    pixelstar_sakura-userdebug \
+    pixelstar_sakura-eng
